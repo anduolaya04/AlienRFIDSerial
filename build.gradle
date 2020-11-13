@@ -1,0 +1,61 @@
+plugins {
+    id 'java'
+}
+
+group 'AlienApesRFID'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: '**/*.jar')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'com.fazecast:jSerialComm:2.6.2'
+}
+/**
+ * Show Repositories Cache
+ */
+task showRepositoriesCache << {
+
+    configurations.compile.each { println it }
+}
+
+/**
+ * Generate APES Utilities JAR
+ */
+jar {
+
+    compileJava.dependsOn clean
+
+    manifest {
+        attributes('Manifest-Version': '1.0',
+                'Name': 'AlienRFID',
+                'Created-By': 'Technoapes de Colombia S.A.S.',
+                'Built-Date': '08/09/2020',
+                'Built-Version': '1.0.0',
+                'Class-Path': configurations.compile.collect { 'lib/' + it.getName() }.join(' '))
+    }
+    archiveName = 'AlienRFID.jar'
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+}
+
+/**
+ * Distribution Task
+ */
+task distribution {
+
+    doLast {
+
+        delete fileTree(project.rootDir.absolutePath + '/dist')
+
+        copy {
+
+            from project.buildDir.path + '/libs/AlienRFID.jar'
+            into project.rootDir.absolutePath + '/dist'
+        }
+    }
+}

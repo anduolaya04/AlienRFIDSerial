@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-Date: 08/09/2020
+Built-Version: 1.0.0
+Name: AlienRFID
+Class-Path: 
+Created-By: Technoapes de Colombia S.A.S.
+

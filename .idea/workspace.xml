@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41d09c24-7f84-4d31-8777-b63ae4bf1431" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/AlienDiscoveryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/AlienDiscoverySerialException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/AlienDiscoverySocketException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/AlienDiscoveryUnknownReaderException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/DiscoveryItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/DiscoveryListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/NetworkDiscoveryListenerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/discovery/SerialDiscoveryListenerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/externalio/ExternalIO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/externalio/ExternalIOUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/AlienMessageConnectionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/AlienMessageException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/AlienMessageFormatException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/ErrorMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/MessageListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/MessageListenerEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/notify/MessageListenerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AbstractReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienClass01Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienClass1Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienClassBPTReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienClassOEMReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienDLEObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderCommandErrorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderConnectionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderConnectionRefusedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderInvalidArgumentException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderNoTagException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderNotValidException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/AlienReaderTimeoutException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/TagMemory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/TimedSocket$SocketThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/reader/TimedSocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/tags/CustomFormat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/tags/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/tags/TagTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/tags/TagTableListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/tags/TagUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/API.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/BitMath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/Converters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/SerialManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/XMLReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/alien/enterpriseRFID/util/XMLWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/AlienRFID.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/AlienRFID.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoveryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoverySerialException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoverySocketException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoveryUnknownReaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/NetworkDiscoveryListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/SerialDiscoveryListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIOUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AbstractReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass01Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass1Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassBPTReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassOEMReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienDLEObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderCommandErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionRefusedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderInvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNoTagException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderTimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TagMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TimedSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/CustomFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTableListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/BitMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/Converters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/SerialManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/package.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlienApesRFID" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlienApesRFID" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlienApesRFID" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AlienApesRFID" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AbstractReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/SerialDiscoveryListenerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1839#1840#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2132#2133#0" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2214#2215#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+                <element signature="e#2313#2314#0" expanded="true" />
+                <element signature="e#2365#2366#0" expanded="true" />
+                <element signature="e#4880#4881#0" expanded="true" />
+                <element signature="e#4917#4918#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/NetworkDiscoveryListenerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2128">
+              <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fazecast/jSerialComm/1.3.11/621b57e9a7d94299f8ea0f878d27a527ca2296ec/jSerialComm-1.3.11-sources.jar!/com/fazecast/jSerialComm/SerialPort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/BitMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3536">
+              <caret line="221" selection-start-line="221" selection-end-line="221" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/SerialManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="69" column="36" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>subcommandCode</find>
+      <find>Class.forName</find>
+      <find>setSerialBaudRate</find>
+      <find>115200</find>
+      <find>setComPortParameters</find>
+      <find>setSerialPortName</find>
+      <find>serialPortName</find>
+      <find>openSerialConnection</find>
+      <find>3988</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoverySerialException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoverySocketException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoveryUnknownReaderException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNotValidException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderInvalidArgumentException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNoTagException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderTimeoutException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionRefusedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderCommandErrorException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/Tag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/CustomFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTableListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/Converters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/API.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIOUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageConnectionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageFormatException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/ErrorMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/NetworkDiscoveryListenerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass1Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassOEMReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassBTPReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassBPTReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass01Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TagMemory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TimedSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/package.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienDLEObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/BitMath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AbstractReader.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/SerialManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/SerialDiscoveryListenerService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AlienApesRFID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlienApesRFID" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlienApesRFID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlienApesRFID" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlienApesRFID" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605281174746" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.AlienApesRFID [distribution]">
+    <configuration name="AlienApesRFID [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlienApesRFID [distribution]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="distribution" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlienApesRFID [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AlienApesRFID [distribution]" />
+        <item itemvalue="Gradle.AlienApesRFID [jar]" />
+        <item itemvalue="Gradle.AlienApesRFID [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41d09c24-7f84-4d31-8777-b63ae4bf1431" name="Default Changelist" comment="" />
+      <created>1599581615417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599581615417</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29954615" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3633388" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.19639935" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.09304085" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoverySocketException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/AlienDiscoveryUnknownReaderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNotValidException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderInvalidArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderNoTagException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderTimeoutException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderConnectionRefusedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienReaderCommandErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="430" column="16" lean-forward="true" selection-start-line="430" selection-start-column="16" selection-end-line="430" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/CustomFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagTableListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/tags/TagUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/Converters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="231" column="42" lean-forward="true" selection-start-line="231" selection-start-column="42" selection-end-line="231" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/externalio/ExternalIOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/AlienMessageConnectionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/ErrorMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass1Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46920">
+          <caret line="2949" column="5" selection-start-line="2949" selection-start-column="5" selection-end-line="2949" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassOEMReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="475" column="41" selection-start-line="475" selection-start-column="41" selection-end-line="475" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClassBPTReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienClass01Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="968" column="20" selection-start-line="968" selection-start-column="20" selection-end-line="968" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TagMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/TimedSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/package.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/DiscoveryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4344">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/XMLReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AlienDLEObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="768" selection-start-line="768" selection-end-line="768" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fazecast/jSerialComm/2.6.2/295af22506b39fbee763ea333b209440a067be8f/jSerialComm-2.6.2-sources.jar!/com/fazecast/jSerialComm/SerialPort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/reader/AbstractReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/SerialDiscoveryListenerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1839#1840#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2132#2133#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#4880#4881#0" expanded="true" />
+            <element signature="e#4917#4918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/notify/MessageListenerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="161" column="49" selection-start-line="161" selection-start-column="49" selection-end-line="161" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fazecast/jSerialComm/1.3.11/621b57e9a7d94299f8ea0f878d27a527ca2296ec/jSerialComm-1.3.11-sources.jar!/com/fazecast/jSerialComm/SerialPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/BitMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3536">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/util/SerialManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alien/enterpriseRFID/discovery/NetworkDiscoveryListenerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
