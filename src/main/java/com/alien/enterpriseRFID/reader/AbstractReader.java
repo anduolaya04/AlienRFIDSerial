@@ -184,7 +184,7 @@ public class AbstractReader {
                         } catch (AlienReaderCommandErrorException var3) {
                         }
 
-                        if (readerName != null && !readerName.startsWith("ReaderName = ")) {
+                        if (readerName != null && !readerName.contains("ReaderName")) {
                             result = new StringBuffer();
                             result.append("Not A Valid Alien RFID Reader.\n");
                             result.append("A device has been found at \"" + this.getAddress() + "\" but is not recognized as a valid Alien RFID Reader.\n");

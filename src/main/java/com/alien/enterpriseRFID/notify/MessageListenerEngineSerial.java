@@ -74,25 +74,6 @@ public class MessageListenerEngineSerial extends Thread implements MessageListen
             readMessages( inputStreamReader, outputStream );
         }
 
-        try {
-            serialManager.close();
-            serialManager = null;
-            if (isDebug) {
-                System.out.println("Message Listener " + this.engineID + ": Reader Closed");
-            }
-        } catch (Exception e) {
-            if (serialManager != null) {
-                try {
-                    serialManager.close();
-                } catch (Exception e1) {
-                }
-                serialManager = null;
-            }
-            errorMessage = new ErrorMessage();
-            errorMessage.setReason("Message Listener " + this.engineID + ": Error - stopped service: " + e.getMessage());
-            this.deliverMessageToListener(errorMessage);
-        }
-
     }
 
     private void readMessages(InputStreamReader inputStreamReader, OutputStream outputStream) {

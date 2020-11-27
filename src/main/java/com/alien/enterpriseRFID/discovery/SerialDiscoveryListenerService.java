@@ -174,6 +174,10 @@ public class SerialDiscoveryListenerService implements Runnable{
         }
 
         try {
+            reader.open();
+            Thread.sleep( 1000L );
+            reader.autoModeReset();
+            reader.close();
             reader.setTimeOutMilliseconds(1000);
             reader.setValidateOpen(false);
             reader.open();

@@ -18,11 +18,11 @@ public class MessageListenerServiceSerial implements Runnable, MessageListener{
     private boolean isRunning;
     private boolean isCustomTagList;
 
+    public MessageListenerServiceSerial(){
+    }
+
     public MessageListenerServiceSerial(String PORT) {
         this.PORT = PORT;
-        serialManager = new SerialManager();
-        serialManager.setSerialPortName( this.PORT );
-        serialManager.setSerialPortTimeout( TIMEOUT );
     }
 
     public void setDebug(boolean debug) { isDebug = debug; }
@@ -40,11 +40,17 @@ public class MessageListenerServiceSerial implements Runnable, MessageListener{
 
     public void startService() throws IOException {
 
+        serialManager = new SerialManager();
+        serialManager.setSerialPortName( this.PORT );
+        serialManager.setSerialPortTimeout( TIMEOUT );
+
         if (motor != null) {
             stopService();
         }
         try {
+
             serialManager.openSerialConnection();
+
             if (isDebug) {
                 System.out.println("Message Listener: Listening on port" + serialManager.getSerialPortName());
             }
